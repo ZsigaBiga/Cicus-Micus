@@ -1,4 +1,68 @@
-.header {
+*{
+    font-size: 18px;
+}
+
+body{
+    background-color: lightblue;
+}
+
+h2 {
+    text-align: center;
+    padding: 0.6rem;
+}
+
+/*img{
+    width: 25%;
+    height: 25%;
+    border-radius: 10%;
+    border: 5px dotted black;
+    float: right;
+    margin: 1rem;
+}*/
+
+
+main{
+    width: 94%;
+    margin-top: 1rem;
+}
+
+.centerM{
     margin: 0 auto;
+}
+
+.carousel{
+    max-height: 565px;
+    max-width: 565px;
+}
+
+.carousel-inner {
+    max-height: 500px;
+    max-width: 500px;
+}
+
+.header {
     width: 98%;    
+}
+
+.embed-link{
+    text-decoration: none;
+    color: deeppink;
+}
+
+.embed-link:hover{
+    color: violet;
+}
+
+.welcome{
+    width: 70%;
+    position: relative;
+}
+
+.header{
+    background-color: darkcyan;
+}
+
+.btn1{
+    display: flex;
+    margin: 7% auto;
 }
